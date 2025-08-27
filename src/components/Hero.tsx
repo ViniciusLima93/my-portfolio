@@ -18,7 +18,7 @@ export const Hero = ({ID}: HeroProps) => {
         
          <Typewriter
             options={{
-                strings: ['FulStack Developer 🚀'],
+                strings: ['FullStack Developer 🚀'],
                 autoStart: true,
                 loop: true,
             }}
