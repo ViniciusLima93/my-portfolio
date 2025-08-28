@@ -16,7 +16,7 @@ export const Projects = ({ID}: ProjectsProps) => {
     return (
         <div id={`${ID}`}>
         <p className="text-xl text-center p-3"> Projects</p>
-        <section className="container flex justify-between gap-4">
+        <section className="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {
            projects.map((project) => {
             return(
