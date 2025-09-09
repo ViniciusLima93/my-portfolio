@@ -14,7 +14,7 @@ export const About = ({ID}: AboutId) => {
     {/* Texto */}
     <section className="flex flex-col text-justify space-y-4">
       <em className="text-center text-xl md:text-2xl font-semibold">
-        Olá, eu sou o Vinicius
+        Olá, eu sou o Vinicius 👋
       </em>
       
       <p>

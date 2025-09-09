@@ -23,7 +23,7 @@ export const Skills = ({ID}: SkillsProps) => {
    
     return (
       <section id={ID}>
-        <p className="text-xl text-center p-3">Skills</p>
+        <p className="text-xl text-center p-3">Habilidades</p>
         <aside className="flex flex-row p-2">
            {
             images.map((i) => {

@@ -13,12 +13,13 @@ export const NavBar = () => {
          <Github size={28} />
 
         </a>
+
       </section>
       <section className="flex flex-wrap justify-center md:justify-end gap-2">
-           <Link className="p-2 m-0.5" href="/#about">About Me</Link>
-            <Link className="p-2 m-0.5"  href="/#projects">Projects</Link>
-            <Link className="p-2 m-0.5" href="/#skills">Skills</Link>
-            <Link className="p-2 m-0.5" href="/#contact">Contact</Link>
+           <Link className="p-2 m-0.5" href="/#about">Sobre Mim</Link>
+            <Link className="p-2 m-0.5"  href="/#projects">Projetos</Link>
+            <Link className="p-2 m-0.5" href="/#skills">Habilidades</Link>
+            <Link className="p-2 m-0.5" href="/#contact">Contatos</Link>
       </section>
       
       </main>  
